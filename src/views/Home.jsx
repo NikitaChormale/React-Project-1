@@ -6,7 +6,7 @@ import freshimg from "./../assets/save-energy.png"
 import deleveryimg from "./../assets/delivery-bike.png"
 import vegtablevariety from "./../assets/vegtable-variety-png.png"
 import FeaturesCard from '../components/FeaturesCard'
-import Button from '../components/Button'
+import Button from './../components/Button'
 const FEATUES_CONFIG = [
   {
     title: "Fresh Vegetables",
@@ -43,6 +43,9 @@ function Home() {
             <h1 className='text-[28px] sm:text-[35px] md:text-[70px] text-center text-[#eb0ebb]'>
               One plateform for all the vegtables you need
             </h1>
+            <Button title={"Call Us"}
+            variant='primary'
+            size='medium'/>
 
           </div>
         </div>
