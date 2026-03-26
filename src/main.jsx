@@ -1,16 +1,17 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes ,Route} from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router";
 import './index.css'
 import Home from "./views/Home"
+import Vegtable from './views/Vegtable';
 
-const root= createRoot(document.getElementById('root'))
+const root = createRoot(document.getElementById('root'))
 root.render(
- <BrowserRouter>
- <Routes>
- <Route path="/" element={<Home />} />
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/vegtable" element={<Vegtable />} />
+    </Routes>
 
-  </Routes>
-  
   </BrowserRouter>
 )

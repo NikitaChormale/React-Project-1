@@ -7,6 +7,7 @@ import deleveryimg from "./../assets/delivery-bike.png"
 import vegtablevariety from "./../assets/vegtable-variety-png.png"
 import FeaturesCard from '../components/FeaturesCard'
 import Button from './../components/Button'
+import { useNavigate } from 'react-router'
 const FEATUES_CONFIG = [
   {
     title: "Fresh Vegetables",
@@ -26,6 +27,8 @@ const FEATUES_CONFIG = [
 ];
 
 function Home() {
+const navigate = useNavigate();
+
   return (
     <div>
       <Navbar />
@@ -43,9 +46,15 @@ function Home() {
             <h1 className='text-[28px] sm:text-[35px] md:text-[70px] text-center text-[#eb0ebb]'>
               One plateform for all the vegtables you need
             </h1>
-            <Button title={"Call Us"}
+             <Button title={"Explore Now"} onClick={()=>{
+              navigate("/vegtable");
+             }}
             variant='primary'
             size='medium'/>
+
+            <Button title={"Call Us"}
+            variant='tertiary'
+            size='small'/>
 
           </div>
         </div>
@@ -75,4 +84,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home 
