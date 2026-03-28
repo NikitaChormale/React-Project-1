@@ -1,11 +1,13 @@
- # RTC Vegtable
-![Home Page](./src/assets/home-page.png)
+ # 🧺Fruitora Fruits
 
+#Home Page
+![Home Page](./src/assets/home-page.png)
+# Product page
 ![product  Page](./src/assets/product-page.png)
-
+# Add to cart Page
 ![Add to cart Page](./src/assets/add-to-cart.png)
-
-![Home Page](./src/assets/home-page.png)
+# Floder Structure
+![Floder Structure](./src/assets/folder-structure.png)
 
 
 
