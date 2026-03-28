@@ -1,6 +1,6 @@
  # 🧺Fruitora Fruits
 
-#Home Page
+# Home Page
 ![Home Page](./src/assets/home-page.png)
 # Product page
 ![product  Page](./src/assets/product-page.png)

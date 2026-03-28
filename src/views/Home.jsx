@@ -27,7 +27,7 @@ const FEATUES_CONFIG = [
 ];
 
 function Home() {
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -46,18 +46,18 @@ const navigate = useNavigate();
             <h1 className='text-[28px] sm:text-[35px]  pb-10 md:text-[70px] text-center text-[#eb0ebb]'>
               Pure Fruits,Pure Happiness
             </h1>
-             <Button title={"Explore Now"} onClick={()=>{
+            <Button title={"Explore Now"} onClick={() => {
               navigate("/vegtable");
-             }}
-            variant='primary'
-            size='medium'/>
+            }}
+              variant='primary'
+              size='medium' />
 
             <Button title={"Call Us"}
-            onClick={()=>{
-              navigate("/callus");
-             }}
-            variant='primary'
-            size='medium'/>
+              onClick={() => {
+                navigate("/callus");
+              }}
+              variant='primary'
+              size='medium' />
 
           </div>
         </div>

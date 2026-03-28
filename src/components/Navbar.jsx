@@ -30,7 +30,7 @@ function Navbar({ refreshCart }) {
             {cardItem.length}
           </span>
         ) : null}
-         <ShoppingCartIcon className='inline-block' size={40} strokeWidth={1} />
+        <ShoppingCartIcon className='inline-block' size={40} strokeWidth={1} />
       </Link>
       <div className="flex items-center gap-6 text-lg font-medium">
         <Link to="/" className="hover:text-white transition duration-300">

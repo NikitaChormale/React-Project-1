@@ -12,7 +12,7 @@ function VegtableCard({
     description,
     tags,
     AddToCard,
-   
+
 
 
 }) {
@@ -41,31 +41,31 @@ function VegtableCard({
 
             <p>{tags.join(",")}</p>
             <div className='flex flex-col'>
-            <div className='flex justify-center items-center my-4 gap-4'>
-                <CircleMinus
-                    className='cursor-pointer'
-                    onClick={() => {
-                        if (quantity > 1) {
-                            setquantity(quantity - 1)
-                        }
-                        else {
-                            toast.error("Quantity cannot be less than 1");
-                        }
-                    }} />
-                <label>{quantity}</label>
-                <CirclePlus
-                    className='cursor-pointer'
-                    onClick={() => {
-                        if (quantity < 10) {
-                            setquantity(quantity + 1);
-                        }
-                        else {
-                            toast.error("Quantity cannot be greater than 10");
-                        }
-                    }}
-                />
-            </div>
-            <p>Total : ₹ {price * quantity} /-</p>
+                <div className='flex justify-center items-center my-4 gap-4'>
+                    <CircleMinus
+                        className='cursor-pointer'
+                        onClick={() => {
+                            if (quantity > 1) {
+                                setquantity(quantity - 1)
+                            }
+                            else {
+                                toast.error("Quantity cannot be less than 1");
+                            }
+                        }} />
+                    <label>{quantity}</label>
+                    <CirclePlus
+                        className='cursor-pointer'
+                        onClick={() => {
+                            if (quantity < 10) {
+                                setquantity(quantity + 1);
+                            }
+                            else {
+                                toast.error("Quantity cannot be greater than 10");
+                            }
+                        }}
+                    />
+                </div>
+                <p>Total : ₹ {price * quantity} /-</p>
             </div>
             <div className='flex justify-center'>
                 <Button
