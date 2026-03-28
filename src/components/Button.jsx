@@ -1,8 +1,9 @@
 import React from 'react'
 const BUTTON_VARIENTS = {
-    primary: "bg-[#43A047]  hover:bg-[#e6a200] transition-duration-700",
-    secondary: "bg-[#66BB6A] hover:bg-blue-600 text-white transition-duration-700 ",
-    tertiary: "bg-[#F1F8E9]  hover:bg-slate-800  text-white transition-duration-700"
+    primary: "bg-[#2ECC71]  hover:bg-[#27AE60]  text-white transition-duration-300",
+    secondary: "bg-[#FF7F50] hover:bg[#E76F51] text-white transition-duration-300 ",
+    tertiary: "bg-[#F1FAEE]  hover:bg[#E9F5DB] text-[#333] transition-duration-300",
+    danger: "bg-[#E63946] text-white hover:bg-[#C1121F] transition-duration-300",
 };
 const BUTTON_SIZES = {
     large: "text-3xl px-8 py-1.5 m-3",

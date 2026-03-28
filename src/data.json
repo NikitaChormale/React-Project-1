@@ -14,17 +14,18 @@
   },
   {
     "id": 2,
-    "name": "Banana",
-    "images": "/banana1-.jpg",
-    "price": 50,
-    "unit": "dozen",
+    "name": "Watermelon",
+    "images": "waterlemon.jpg",
+    "price": 30,
+    "unit": "kg",
     "category": "Fruits",
-    "description": "Sweet bananas full of energy and potassium.",
+    "description": "Refreshing watermelon perfect for summer.",
     "tags": [
-      "energy",
-      "healthy"
+      "summer",
+      "hydrating"
     ]
   },
+
   {
     "id": 3,
     "name": "Mango",
@@ -79,15 +80,15 @@
   },
   {
     "id": 7,
-    "name": "Watermelon",
-    "images": "waterlemon.jpg",
-    "price": 30,
-    "unit": "kg",
+    "name": "Banana",
+    "images": "/banana1-.jpg",
+    "price": 50,
+    "unit": "dozen",
     "category": "Fruits",
-    "description": "Refreshing watermelon perfect for summer.",
+    "description": "Sweet bananas full of energy and potassium.",
     "tags": [
-      "summer",
-      "hydrating"
+      "energy",
+      "healthy"
     ]
   },
   {

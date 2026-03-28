@@ -12,13 +12,14 @@ function VegtableCard({
     description,
     tags,
     AddToCard,
+   
 
 
 }) {
     const [quantity, setquantity] = useState(1);
 
     return (
-        <div className=' border-solid border-slate-800
+        <div className=' border border-solid border-slate-800
     bg-white m-5 p-4 w-90 rounded-md ' key={id}>
             <div className='relative'>
                 <img
@@ -26,8 +27,8 @@ function VegtableCard({
                     alt={name}
                     className='w-full h-48 object-cover rounded-md'
                 />
-                <span><p className='absolute top-2 right-2 text-white text-xl'>
-                    {category}</p></span>
+                <span><p className='absolute top-2 right-2 text-black text-xl'>
+                    {category}{name}</p></span>
             </div>
 
             <h3>{name}</h3>
@@ -77,7 +78,7 @@ function VegtableCard({
                             description,
                             tags,
                             AddToCard,
-
+                            quantity,
                         });
                     }}
                 />

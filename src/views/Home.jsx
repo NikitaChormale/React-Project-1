@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from './../components/Navbar'
 import Footer from "./../components/Footer"
-import VegtableImg from './../assets/vegtable-img-png.png'
-import freshimg from "./../assets/save-energy.png"
+import VegtableImg from './../assets/logo-chatgpt.jpg'
+import freshimg from "../assets/vegtable-img-png.png"
 import deleveryimg from "./../assets/delivery-bike.png"
-import vegtablevariety from "./../assets/vegtable-variety-png.png"
+import vegtablevariety from "./../assets/fruits-plate-home-page.jpg"
 import FeaturesCard from '../components/FeaturesCard'
 import Button from './../components/Button'
 import { useNavigate } from 'react-router'
@@ -39,12 +39,12 @@ const navigate = useNavigate();
 
           <img
             src={VegtableImg}
-            className='h-[200px]  sm:h-[300px] md:h-[400px]'
+            className='h-[100px]  sm:h-[200px] md:h-[200px]'
           />
 
           <div>
-            <h1 className='text-[28px] sm:text-[35px] md:text-[70px] text-center text-[#eb0ebb]'>
-              One plateform for all the vegtables you need
+            <h1 className='text-[28px] sm:text-[35px]  pb-10 md:text-[70px] text-center text-[#eb0ebb]'>
+              Pure Fruits,Pure Happiness
             </h1>
              <Button title={"Explore Now"} onClick={()=>{
               navigate("/vegtable");
@@ -53,8 +53,8 @@ const navigate = useNavigate();
             size='medium'/>
 
             <Button title={"Call Us"}
-            variant='tertiary'
-            size='small'/>
+            variant='primary'
+            size='medium'/>
 
           </div>
         </div>
