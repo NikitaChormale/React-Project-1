@@ -53,6 +53,9 @@ const navigate = useNavigate();
             size='medium'/>
 
             <Button title={"Call Us"}
+            onClick={()=>{
+              navigate("/callus");
+             }}
             variant='primary'
             size='medium'/>
 

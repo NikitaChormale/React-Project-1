@@ -31,10 +31,7 @@ function mycart() {
                 {...item}/>
             })}
             </div>
-            </div>
-
-
-         
+            </div>         
         <Footer/>
     </div>
   );

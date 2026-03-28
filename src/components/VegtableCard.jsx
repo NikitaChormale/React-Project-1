@@ -40,6 +40,7 @@ function VegtableCard({
             </p>
 
             <p>{tags.join(",")}</p>
+            <div className='flex flex-col'>
             <div className='flex justify-center items-center my-4 gap-4'>
                 <CircleMinus
                     className='cursor-pointer'
@@ -63,6 +64,8 @@ function VegtableCard({
                         }
                     }}
                 />
+            </div>
+            <p>Total : ₹ {price * quantity} /-</p>
             </div>
             <div className='flex justify-center'>
                 <Button

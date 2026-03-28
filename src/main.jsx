@@ -14,7 +14,7 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/vegtable" element={<Vegtable />} />
       <Route path='/my-cart' element={<Mycart />} />
-      <Route path='/call-us' element={<Callus/>} />
+      <Route path='/callus' element={<Callus/>} />
     </Routes>
 
   </BrowserRouter>
