@@ -5,6 +5,7 @@ import './index.css'
 import Home from "./views/Home"
 import Vegtable from './views/Vegtable';
 import Mycart from './views/mycart';
+import Callus from './views/callus';
 
 const root = createRoot(document.getElementById('root'))
 root.render(
@@ -13,6 +14,7 @@ root.render(
       <Route path="/" element={<Home />} />
       <Route path="/vegtable" element={<Vegtable />} />
       <Route path='/my-cart' element={<Mycart />} />
+      <Route path='/call-us' element={<Callus/>} />
     </Routes>
 
   </BrowserRouter>
