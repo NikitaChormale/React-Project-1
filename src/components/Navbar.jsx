@@ -19,8 +19,6 @@ function Navbar({ refreshCart }) {
     <div className='bg-[#ffbc4c] text-black sticky top-2 max-w-10/12 mx-auto px-10 py-2
     rounded-full flex items-center justify-center gap-2 my-2 z-50'>
       <Link to="/" className='flex items-center'>
-        <img src={logo} style={{ height: "50px", width: "100" }} />
-
         <h2 className='text-2xl font-bold'>🧺Fruitora Fruits</h2>
       </Link>
 
@@ -32,9 +30,7 @@ function Navbar({ refreshCart }) {
             {cardItem.length}
           </span>
         ) : null}
-
-
-        <ShoppingCartIcon className='inline-block' size={40} strokeWidth={1} />
+         <ShoppingCartIcon className='inline-block' size={40} strokeWidth={1} />
       </Link>
       <div className="flex items-center gap-6 text-lg font-medium">
         <Link to="/" className="hover:text-white transition duration-300">

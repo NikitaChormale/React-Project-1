@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+
 function Callus() {
   return (
     <div>
       <Navbar/>
-      <div className="min-h-screen bg-[#FFF7F5] py-12 px-6">
+      
         <div className="max-w-6xl mx-auto">
           
           {/* Heading */}
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-[rgb(192,243,72)]">
+          <div className="text-center mb-12 pt-6">
+            <h1 className="text-4xl md:text-5xl font-bold text-[rgb(198,240,10)]">
               Call Us
             </h1>
             <p className="text-gray-600 mt-4 text-lg">
@@ -60,7 +61,7 @@ function Callus() {
                 Send Us a Message
               </h2>
 
-              <form className="space-y-5">
+              <form className="space-y-5 ">
                 <div>
                   <label className="block mb-2 font-medium text-gray-700">
                     Full Name
@@ -116,9 +117,6 @@ function Callus() {
 
           </div>
         </div>
-      </div>
-
-
 
       <Footer/>
     </div>
